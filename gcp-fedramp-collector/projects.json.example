@@ -1,0 +1,12 @@
+{
+  "description": "GCP projects for FedRAMP assessment",
+  "last_updated": "2025-01-30",
+  "projects": [
+    "my-prod-project-123",
+    "my-staging-project-456", 
+    "my-dev-project-789",
+    "data-analytics-project",
+    "ml-research-project",
+    "backup-project-001"
+  ]
+}

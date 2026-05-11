@@ -1,0 +1,7 @@
+project_id,description,environment
+my-prod-project-123,Production web application,production
+my-staging-project-456,Staging environment,staging
+my-dev-project-789,Development environment,development
+data-analytics-project,Analytics and reporting,production
+ml-research-project,Machine learning workloads,research
+backup-project-001,Backup and disaster recovery,production

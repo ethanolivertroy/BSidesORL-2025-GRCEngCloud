@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 -c "from google.cloud import storage; import json; c=storage.Client(); buckets=[{'name':b.name,'encryption':'CMEK' if b.default_kms_key_name else 'GOOGLE_MANAGED','location':b.location,'versioning':b.versioning_enabled,'uniformBucketLevelAccess':getattr(b.iam_configuration,'uniform_bucket_level_access_enabled',False)} for b in c.list_buckets()]; print(json.dumps(buckets,indent=2))" > all_buckets_encryption.json

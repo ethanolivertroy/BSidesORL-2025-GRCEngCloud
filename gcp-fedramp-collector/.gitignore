@@ -1,0 +1,107 @@
+# FedRAMP GCP Collector ignores
+#
+# Most generated files from this tool are cloud configuration evidence. Even
+# when they do not contain secrets, they can describe a real environment and
+# should not be committed by accident.
+
+# Collection archives and extracted collector output
+fedramp_gcp_collection_*/
+fedramp_multi_collection_*/
+collector_output/
+raw_data/
+processed_data/
+client_data/
+assessment_*/
+audit_*/
+scan_results/
+*.tar.gz
+*.zip
+
+# Generated evidence and reports
+*.json
+*.csv
+*.html
+*.xlsx
+reports/
+analysis_output/
+compliance_reports/
+assessment_results/
+
+# Local credentials and secrets
+.env
+.env.*
+credentials/
+secrets/
+*-key.json
+*_key.json
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+*.kubeconfig
+
+# Python runtime and packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+.virtualenv/
+
+# Local scratch files
+tmp/
+temp/
+cache/
+.cache/
+.analysis_cache/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.log
+
+# Cloud provider and IaC local state
+.gcloud/
+.config/gcloud/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE, editor, and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
