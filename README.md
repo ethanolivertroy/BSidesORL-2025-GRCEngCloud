@@ -1,5 +1,7 @@
 # GRC Engineering in the Cloud: BSides Orlando 2025
 
+> **Project moved.** BSidesORL-2025-GRCEngCloud has been integrated into [Open Control Tools](https://github.com/ethanolivertroy/open-ctrl-tools).
+
 Talk artifacts from *GRC Engineering in the Cloud*, presented at BSides Orlando 2025.
 
 ## Contents
